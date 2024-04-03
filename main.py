@@ -1,10 +1,11 @@
-from ui import Interface
+from water_marker import WaterMarker
 
 
-# TODO Multiple files conversion
+# TODO (optional) Multiple files conversion
+# TODO (optional) Allow user to chose different font, color etc.
+# TODO (optional) Allow user to chose which corner wm will be placed
 def main():
-    ui = Interface(water_text="@slliver")
-    #ui.create_watermark("KOTSEKTOwdeqd1$#@$@$")
+    WaterMarker(water_text="Hello! This is Artur")
 
 
 if __name__ == '__main__':
